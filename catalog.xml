@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/PruebaBQ/addMessage?wsdl" uri="src/conf/xml-resources/web-service-references/addMessage/wsdl/localhost_8080/PruebaBQ/addMessage.wsdl"/>
+    <system systemId="http://localhost:8080/PruebaBQ/addMessage?xsd=1" uri="src/conf/xml-resources/web-service-references/addMessage/wsdl/localhost_8080/PruebaBQ/addMessage.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/insertaUsuarios/insertaUsuarios?wsdl" uri="src/conf/xml-resources/web-service-references/insertaUsuarios/wsdl/localhost_8080/insertaUsuarios/insertaUsuarios.wsdl"/>
+    <system systemId="http://localhost:8080/insertaUsuarios/insertaUsuarios?xsd=1" uri="src/conf/xml-resources/web-service-references/insertaUsuarios/wsdl/localhost_8080/insertaUsuarios/insertaUsuarios.xsd_1.xsd"/>
+</catalog>
