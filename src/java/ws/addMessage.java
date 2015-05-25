@@ -32,7 +32,9 @@ public class addMessage {
         String respuesta;
         String resultado;
         Class.forName("com.mysql.jdbc.Driver");
+        //Abrimos la conexión/Open the connection
         try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");) {
+            //Preparamos la operación que queremos realizar sobre la BBDD/Prepare the operation we want to perform on the DB
             PreparedStatement stat = con.prepareStatement("SELECT ID_usuario FROM t_usuarios WHERE ID_usuario = ?");
             stat.setString(1, Usuario);
             try (ResultSet rs = stat.executeQuery()) {
